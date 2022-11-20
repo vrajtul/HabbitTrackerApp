@@ -4,8 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".Activity.SelectCategoryActivity">
 
+    <RelativeLayout
+        android:id="@+id/relativeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="45.0dp"
+            android:layout_height="45.0dp"
+            android:layout_marginHorizontal="10.0dp"
+            android:layout_marginVertical="2.0dp"
+            android:background="@drawable/ripple_normal"
+            android:padding="13.0dp"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingVertical="13.0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="New Habbit"
+            android:textColor="@color/white"
+            android:textSize="18.0sp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHabitCategories"
+        tools:listitem="@layout/item_new_categories"
+        android:layout_below="@+id/relativeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </RelativeLayout>

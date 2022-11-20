@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.habbit.Tracker.Activity.SelectCategoryActivity
 import com.habbit.Tracker.Adapter.AdapterStartedTask
+import com.habbit.Tracker.Model.ModelTask
 import com.habbit.Tracker.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

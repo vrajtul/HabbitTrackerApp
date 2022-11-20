@@ -1,4 +1,4 @@
-package com.habbit.Tracker
+package com.habbit.Tracker.Model
 
 import android.icu.text.CaseMap.Title
 import java.util.Timer

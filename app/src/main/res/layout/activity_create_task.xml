@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Activity.CreateTaskActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/relativeToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="38.0dp"
+                android:layout_height="38.0dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="2.0dp"
+                android:layout_marginStart="5.0dp"
+                android:background="@drawable/ripple_normal"
+                android:padding="10.0dp"
+                android:src="@drawable/ic_arrow_back" />
+
+            <ImageView
+                android:layout_width="35.0dp"
+                android:layout_height="35.0dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="2.0dp"
+                android:padding="6.0dp"
+                android:src="@drawable/ic_excercise"
+                app:tint="#61BDE3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10.0dp"
+                android:paddingVertical="13.0dp"
+                android:text="Exercise"
+                android:textColor="@color/white"
+                android:textSize="18.0sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingHorizontal="11.0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeToolbar"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

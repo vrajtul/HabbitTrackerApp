@@ -1,10 +1,9 @@
 package com.habbit.Tracker.Adapter
 
-import android.view.Display.Mode
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.habbit.Tracker.ModelTask
+import com.habbit.Tracker.Model.ModelTask
 import com.habbit.Tracker.databinding.ItemMyReminderBinding
 
 class AdapterStartedTask : RecyclerView.Adapter<AdapterStartedTask.ViewHolder>() {
